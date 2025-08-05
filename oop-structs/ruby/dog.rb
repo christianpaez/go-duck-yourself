@@ -5,6 +5,10 @@ class Dog
     @name = name
   end
 
+  def self.description
+    puts "This is a class that describes a Dog."
+  end
+
   def is_a_good_dog
     if best_breed?
       puts "#{@name} is the best dog ever, congrats!"
@@ -21,6 +25,7 @@ class Dog
   end
 end
 
+Dog.description
 noah = Dog.new('Noah', 'Golden Retriever')
 nina = Dog.new('Nina', 'Border Collie')
 pepe = Dog.new('Pepe', 'Pitbull')
