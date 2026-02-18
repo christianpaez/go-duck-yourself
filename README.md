@@ -13,5 +13,5 @@ Topics:
 - cli development
 - external libs(websocket example)
 - mutexes(caching example)
-- duck typing vs reflection(JSON formatter example)
+- duck typing vs reflection(JSON formatter from DB query example)
 - File handling primitives(Ephemeral storage example)
