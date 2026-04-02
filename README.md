@@ -7,7 +7,8 @@ A Go intro for Rubyists.
 Topics:
 - Basic file server with basic auth
 - Benchmarking
-- testing
+- testing:
+   minitest vs native go - http needs library(rack-test), go has native solution for this
 - package management
 - concurrency/parallelism
 - cli development
