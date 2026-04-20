@@ -5,6 +5,7 @@ A Go intro for Rubyists.
 
 
 Topics:
+- Basic Classes vs Structs
 - Basic file server with basic auth
 - Benchmarking
 - testing:
