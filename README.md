@@ -18,3 +18,6 @@ Topics:
 - duck typing vs reflection(JSON formatter from DB query example)
 - File handling primitives(Ephemeral storage example)
 - go doc vs rdoc
+- so struct - struct
+  module -  type interface
+  class - struct with pointer receivers?a
