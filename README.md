@@ -5,7 +5,7 @@ A Go intro for Rubyists.
 
 
 Topics:
-- Basic Classes vs Structs
+- Basic Classes vs Structs []
 - Basic file server with basic auth
 - Benchmarking
 - testing:
@@ -20,4 +20,5 @@ Topics:
 - go doc vs rdoc
 - so struct - struct
   module -  type interface
-  class - struct with pointer receivers?a
+  class - struct with pointer receivers?
+  Error handling
