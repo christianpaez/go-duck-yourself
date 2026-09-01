@@ -5,8 +5,8 @@ A Go intro for Rubyists.
 
 
 Topics:
-- Basic Classes vs Structs []
-- Basic file server with basic auth
+- Basic Classes vs Structs [x]
+- Basic file server with basic auth []
 - Benchmarking
 - testing:
    minitest vs native go - http needs library(rack-test), go has native solution for this
