@@ -13,13 +13,17 @@ func logRequest(request *http.Request) {
 }
 
 func healthHandler(writer http.ResponseWriter, request *http.Request) {
-	fmt.Fprintf(writer, "ok\n")
 	logRequest(request)
+	fmt.Fprintln(writer, "ok")
 }
 
 func main() {
 	fmt.Printf("Server started at http://localhost%s\n", port)
 
 	http.HandleFunc("/health", healthHandler)
-	http.ListenAndServe(port, nil)
+	http.Handle("/", http.FileServer(http.Dir("public")))
+	err := http.ListenAndServe(port, nil)
+	if err != nil {
+		fmt.Println("Http server error: ", err)
+	}
 }
